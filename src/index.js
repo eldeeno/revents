@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './app/layout/App';
 import * as serviceWorker from './serviceWorker';
+import 'semantic-ui-css/semantic.min.css';
 
 const rootEl = document.getElementById('root');
 let render = () => {
@@ -15,7 +16,7 @@ let render = () => {
 }
 
 if(module.hot) {
-  module.hot.accept('./App', () => {
+  module.hot.accept('./app/layout/App', () => {
     setTimeout(render);
   })
 }

@@ -1,12 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component, Fragment } from 'react';
+import EventDashboard from '../../features/event/EventDashBoard/EventDashboard';
+import NavBar from '../../features/nav/NavBar/NavBar';
+import { Container } from 'semantic-ui-react';
 
 function App() {
   return (
-    <div className="App">
-      <h1></h1>
-    </div>
+    <Fragment>
+      <NavBar/>
+      <Container className='main'>
+        <EventDashboard/>
+      </Container>
+    </Fragment>
   );
 }
 
