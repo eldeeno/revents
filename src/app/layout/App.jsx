@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Fragment } from 'react';
 import EventDashboard from '../../features/event/EventDashBoard/EventDashboard';
 import NavBar from '../../features/nav/NavBar/NavBar';
 import { Container } from 'semantic-ui-react';
